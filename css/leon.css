@@ -20,7 +20,7 @@ body {
 }
 /* end global rules*/
 html {
-    scroll-behavior: smooth; /*to apply for whole website*/
+    scroll-behavior: smooth; 
   }
   body {
     font-family: "Work Sans", sans-serif;
@@ -59,7 +59,7 @@ html {
     letter-spacing: -3px;
     margin: 0;
   }
-  .special-heading + p { /*it has the same style*/
+  .special-heading + p { 
     margin: -30px 0 0;
     font-size: 20px;
     text-align: center;
@@ -121,7 +121,7 @@ html {
     position: absolute;
     right: 0;
     min-width: 200px;
-    top: calc(100% + 15px);/*?*/
+    top: calc(100% + 15px);
     display: none;
     z-index: 1;
   }
@@ -147,7 +147,7 @@ html {
   .header .links ul li a:hover {
     padding-left: 25px;
   }
-  .header .links ul li:not(:last-child) a { /*?*/
+  .header .links ul li:not(:last-child) a { 
     border-bottom: 1px solid #ddd;
   }
   /* End Header */
@@ -186,7 +186,7 @@ html {
   }
   .features .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));/*??*/
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
   }
   .features .feat {
@@ -298,7 +298,7 @@ html {
   /* Start About */
   .about {
     padding-top: var(--section-padding);
-    padding-bottom: calc(var(--section-padding) + 60px); /*??*/
+    padding-bottom: calc(var(--section-padding) + 60px); 
   }
   .about .about-content {
     margin-top: 100px;
